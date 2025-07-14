@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.Application", "Madiff.CardsPermissionsCalculator.Application\Madiff.CardsPermissionsCalculator.Application.csproj", "{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.Tests", "Madiff.CardsPermissionsCalculator.Tests\Madiff.CardsPermissionsCalculator.Tests.csproj", "{6B8F1ABE-B55A-4938-9A47-B912BD2C91AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8F1ABE-B55A-4938-9A47-B912BD2C91AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8F1ABE-B55A-4938-9A47-B912BD2C91AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8F1ABE-B55A-4938-9A47-B912BD2C91AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8F1ABE-B55A-4938-9A47-B912BD2C91AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

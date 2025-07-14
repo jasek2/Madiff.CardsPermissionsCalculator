@@ -2,7 +2,7 @@ using Madiff.CardsPermissionsCalculator.Domain.Models;
 
 namespace Madiff.CardsPermissionsCalculator.Infrastructure.Services;
 
-public class CardService
+public class CardService : ICardService
 {
     private readonly Dictionary<string, Dictionary<string, CardDetails>> _userCards = CreateSampleUserCards();
 

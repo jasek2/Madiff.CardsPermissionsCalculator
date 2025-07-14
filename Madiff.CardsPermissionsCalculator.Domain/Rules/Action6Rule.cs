@@ -8,9 +8,8 @@ public class Action6Rule : IActionRule
 
     public bool IsAllowed(CardDetails card)
     {
-        return card is { CardStatus: CardStatus.Ordered, IsPinSet: true } ||
-               card is { CardStatus: CardStatus.Inactive, IsPinSet: true } ||
-               card is { CardStatus: CardStatus.Active, IsPinSet: true } ||
-               card is { CardStatus: CardStatus.Blocked, IsPinSet: true };
+        return card is { CardStatus: CardStatus.Ordered, IsPinSet: true } or
+            { CardStatus: CardStatus.Inactive, IsPinSet: true } or { CardStatus: CardStatus.Active, IsPinSet: true } or
+            { CardStatus: CardStatus.Blocked, IsPinSet: true };
     }
 }

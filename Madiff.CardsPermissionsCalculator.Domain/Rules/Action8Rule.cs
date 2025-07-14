@@ -8,10 +8,7 @@ public class Action8Rule : IActionRule
 
     public bool IsAllowed(CardDetails card)
     {
-        return card.CardStatus == CardStatus.Ordered ||
-               card.CardStatus == CardStatus.Inactive ||
-               card.CardStatus == CardStatus.Active ||
-               card.CardStatus == CardStatus.Blocked
+        return card.CardStatus is CardStatus.Ordered or CardStatus.Inactive or CardStatus.Active or CardStatus.Blocked
             ;
     }
 }

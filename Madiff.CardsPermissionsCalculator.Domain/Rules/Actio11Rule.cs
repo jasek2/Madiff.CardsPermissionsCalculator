@@ -8,7 +8,6 @@ public class Action11Rule : IActionRule
 
     public bool IsAllowed(CardDetails card)
     {
-        return card.CardStatus == CardStatus.Inactive ||
-               card.CardStatus == CardStatus.Active;
+        return card.CardStatus is CardStatus.Inactive or CardStatus.Active;
     }
 }
