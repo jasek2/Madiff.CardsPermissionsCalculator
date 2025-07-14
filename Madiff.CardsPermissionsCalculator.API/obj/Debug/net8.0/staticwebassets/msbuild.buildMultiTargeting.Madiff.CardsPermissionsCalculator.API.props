@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Madiff.CardsPermissionsCalculator.API.props" />
+</Project>

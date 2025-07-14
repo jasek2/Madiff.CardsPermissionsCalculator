@@ -1,0 +1,6 @@
+@Madiff.CardsPermissionsCalculator.API_HostAddress = http://localhost:5029
+
+GET {{Madiff.CardsPermissionsCalculator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
