@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.API", "Madiff.CardsPermissionsCalculator.API\Madiff.CardsPermissionsCalculator.API.csproj", "{266F2B4E-D49F-4B5A-9D9E-88B23FDCD8B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.Domain", "Madiff.CardsPermissionsCalculator.Domain\Madiff.CardsPermissionsCalculator.Domain.csproj", "{957A0C19-1A21-4154-9DD7-055218B80997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.Infrastructure", "Madiff.CardsPermissionsCalculator.Infrastructure\Madiff.CardsPermissionsCalculator.Infrastructure.csproj", "{B411F477-1C4C-4B35-A349-BEE543B50C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madiff.CardsPermissionsCalculator.Application", "Madiff.CardsPermissionsCalculator.Application\Madiff.CardsPermissionsCalculator.Application.csproj", "{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{266F2B4E-D49F-4B5A-9D9E-88B23FDCD8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266F2B4E-D49F-4B5A-9D9E-88B23FDCD8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266F2B4E-D49F-4B5A-9D9E-88B23FDCD8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957A0C19-1A21-4154-9DD7-055218B80997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957A0C19-1A21-4154-9DD7-055218B80997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957A0C19-1A21-4154-9DD7-055218B80997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957A0C19-1A21-4154-9DD7-055218B80997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B411F477-1C4C-4B35-A349-BEE543B50C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B411F477-1C4C-4B35-A349-BEE543B50C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B411F477-1C4C-4B35-A349-BEE543B50C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B411F477-1C4C-4B35-A349-BEE543B50C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B2E4E7-6BDA-4863-BE45-EF8E5B95FCDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
