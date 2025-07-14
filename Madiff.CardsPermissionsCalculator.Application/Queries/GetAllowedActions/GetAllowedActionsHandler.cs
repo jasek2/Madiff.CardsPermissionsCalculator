@@ -5,17 +5,9 @@ using MediatR;
 
 namespace Madiff.CardsPermissionsCalculator.Application.Queries.GetAllowedActions;
 
-public class GetAllowedActionsHandler : IRequestHandler<GetAllowedActionsQuery, List<string>>
+public class GetAllowedActionsHandler
+    (ICardService cardService, IEnumerable<IActionRule> rules) : IRequestHandler<GetAllowedActionsQuery, List<string>>
 {
-    private readonly ICardService cardService;
-    private readonly IEnumerable<IActionRule> rules;
-
-    public GetAllowedActionsHandler(ICardService cardService, IEnumerable<IActionRule> rules)
-    {
-        this.cardService = cardService;
-        this.rules = rules;
-    }
-
     public async Task<List<string>> Handle(GetAllowedActionsQuery request, CancellationToken cancellationToken)
     {
         var card = await cardService.GetCardDetails(request.UserId, request.CardNumber);
